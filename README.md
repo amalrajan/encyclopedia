@@ -58,13 +58,13 @@ Open your web browser and navigate to [http://localhost:10000](http://localhost:
 
 ## Screenshots
 
-<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/Screenshot%202024-01-21%20203302_18ZM2g33f.png?updatedAt=1705887465328">
+<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/screely-1705890504082_FFBUB-NHj.png?updatedAt=1705890538630">
 
-<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/Screenshot%202024-01-21%20203239_4KuBA-RXU.png?updatedAt=1705887466573">
+<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/screely-1705890495818_XdlbQpy8q.png?updatedAt=1705890540666">
 
-<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/Screenshot%202024-01-21%20203632_NHagMwXE8.png?updatedAt=1705887464797">
+<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/screely-1705890510583_qMQg5H_gR.png?updatedAt=1705890538581">
 
-<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/Screenshot%202024-01-21%20202342_B3Y9t9ccB.png?updatedAt=1705887464873">
+<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/screely-1705890475466_4ZeLiLWVd.png?updatedAt=1705890538405">
 
 ## Contributions
 
