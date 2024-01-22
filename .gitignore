@@ -1,0 +1,52 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-shm
+/db/*.sqlite3-wal
+
+# Ignore log and temp files.
+/log/*
+/tmp/*
+
+# Ignore public/uploads directory if you're using carrierwave or similar.
+/public/uploads
+
+# Ignore node_modules directory.
+/node_modules
+
+# Ignore yarn-error.log file.
+/yarn-error.log
+
+# Ignore coverage directory.
+/coverage/
+
+# Ignore system test files.
+/spec/system/*
+
+# Ignore compiled assets.
+/public/packs
+/public/packs-test
+/public/stylesheets/*.css
+
+# Ignore the master key for decrypting credentials and secrets.
+/config/master.key
+
+# Ignore credentials file.
+/config/credentials.yml.enc
+
+# Ignore dotenv files.
+.env*
+
+# Ignore the local environment configuration.
+/.env.local
+
+# Ignore the secrets file.
+/config/secrets.yml
+
+# Ignore Visual Studio Code settings.
+.vscode/
+
+# Ignore any .DS_Store files.
+.DS_Store
