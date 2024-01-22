@@ -1,8 +1,8 @@
-# Encyclopedia CRUD App
+<h1 align="center">Encyclopedia App</h1>
 
 ## Overview
 
-The Encyclopedia CRUD (Create, Read, Update, Delete) App is a web application built using Ruby on Rails that allows users to manage articles in an encyclopedia. This application provides basic CRUD functionality for articles, including searching, creating, updating, and deleting entries.
+The Encyclopedia App is a web application built using Ruby on Rails that allows users to manage articles in an encyclopedia. This application provides basic CRUD functionality for articles, including searching, creating, updating, and deleting entries.
 
 ## Features
 
@@ -10,43 +10,43 @@ The Encyclopedia CRUD (Create, Read, Update, Delete) App is a web application bu
 - **Random Article**: Redirect to a random article for discovery.
 - **Show Article**: Display individual articles with their details.
 - **Create Article**: Add new articles to the encyclopedia.
-- **Edit Article**: Modify existing articles to keep information up-to-date.
+- **Edit Article**: Modify existing articales to keep information up-to-date.
 - **Delete Article**: Remove articles that are no longer relevant.
 - **Cache Management**: Set up cache headers to optimize response times.
 
 ## Getting Started
 
-To run the Encyclopedia CRUD App locally, follow these steps:
-
-1. Clone the repository:
+To run the Encyclopedia App locally, follow these steps:
 
 ```
-git clone <repository_url>
-cd encyclopedia-crud-app
-```
+# Clone the repository:
+git clone https://github.com/amalrajan/encyclopedia
+cd encyclopedia
 
-
-2. Install dependencies:
-
-```
+# Install dependencies:
 bundle install
-```
 
-3. Set up the database:
-
-```
+# Set up the database:
 rails db:migrate
-```
 
-
-4. Start the Rails server:
-
-```
+# Start the Rails server:
 rails server
 ```
 
+Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.
 
-5. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.
+
+For Docker,
+
+```
+# Pull the Docker image:
+docker pull amalrajan/encyclopedia
+
+# Run the Docker container:
+docker run -p 10000:10000 amalrajan/encyclopedia
+```
+
+Open your web browser and navigate to [http://localhost:10000](http://localhost:10000) to access the application.
 
 ## Usage
 
@@ -55,9 +55,20 @@ rails server
 - **Article Deletion**: Remove articles by clicking on the "Delete" button.
 - **Random Article**: Discover a random article by visiting [http://localhost:3000/articles/random](http://localhost:3000/articles/random).
 
+
+## Screenshots
+
+<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/Screenshot%202024-01-21%20203302_18ZM2g33f.png?updatedAt=1705887465328">
+
+<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/Screenshot%202024-01-21%20203239_4KuBA-RXU.png?updatedAt=1705887466573">
+
+<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/Screenshot%202024-01-21%20203632_NHagMwXE8.png?updatedAt=1705887464797">
+
+<img src="https://ik.imagekit.io/5jrct2yttdr/encyclopedia-rails-github/Screenshot%202024-01-21%20202342_B3Y9t9ccB.png?updatedAt=1705887464873">
+
 ## Contributions
 
-Contributions to the Encyclopedia CRUD App are welcome. If you find any issues or have suggestions for improvement, please open an issue or create a pull request.
+Contributions to the Encyclopedia App are welcome. If you find any issues or have suggestions for improvement, please open an issue or create a pull request.
 
 ## License
 
