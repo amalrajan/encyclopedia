@@ -9,7 +9,10 @@ class ArticlesController < ApplicationController
     if params[:search]
       @articles = Article.search(params[:search])
     else
-      @articles = Article.all
+      # Attempt to fetch all articles from cache
+      @articles = Rails.cache.fetch('all_articles', expires_in: 1.hour) do
+        Article.all
+      end
     end
   end
 
