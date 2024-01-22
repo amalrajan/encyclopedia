@@ -73,3 +73,5 @@ end
 gem "shadcn-ui", "~> 0.0.12"
 
 gem "tailwindcss-rails", "~> 2.3"
+
+gem "rubocop", "~> 1.60"
